@@ -223,6 +223,15 @@ footer{
         url('fonts/heartbeat.ttf') format('ttf');
 }
 
+/* Media Queries */
+@media (max-width: 480px) {
+  .hidden-on-lg {
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
+}
 /*
   Animations for fading in logo on page load
 */
