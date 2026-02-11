@@ -168,14 +168,20 @@ article h2.open-forever{
   margin: 0 auto;
 }
 
-button{
+.button {
   width: 100%;
   margin-top: 1em;
+}
+
+.button-link {
+  display: block;
   padding: .5em;
   background: #27AE60;
   border: 2px solid #FCFCFC;
   color: #000000;
   font-weight: bold;
+  text-align: center;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -246,11 +252,11 @@ footer{
 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('fonts/heartbeat.eot') format('eot'),
-        url('fonts/heartbeat.otf') format('otf'),
-        url('fonts/heartbeat.woff') format('woff'),
-        url('fonts/heartbeat.svg') format('svg'),
-        url('fonts/heartbeat.ttf') format('ttf');
+  src:  url('../fonts/heartbeat.eot') format('eot'),
+        url('../fonts/heartbeat.otf') format('otf'),
+        url('../fonts/heartbeat.woff') format('woff'),
+        url('../fonts/heartbeat.svg') format('svg'),
+        url('../fonts/heartbeat.ttf') format('ttf');
 }
 
 /* Media Queries */
