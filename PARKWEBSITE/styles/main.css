@@ -180,6 +180,10 @@ footer{
 .hidden-on-sm{
   display: block;
 }
+.row{
+  display: flex;
+
+}
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
