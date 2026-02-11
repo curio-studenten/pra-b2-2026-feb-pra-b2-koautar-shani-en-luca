@@ -154,14 +154,20 @@ article h2.open-forever{
   margin: 0 auto;
 }
 
-button{
+.button {
   width: 100%;
   margin-top: 1em;
+}
+
+.button-link {
+  display: block;
   padding: .5em;
   background: #27AE60;
   border: 2px solid #FCFCFC;
   color: #000000;
   font-weight: bold;
+  text-align: center;
+  text-decoration: none;
   cursor: pointer;
 }
 
