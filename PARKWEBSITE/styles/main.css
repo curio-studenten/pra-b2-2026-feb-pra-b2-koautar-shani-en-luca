@@ -120,6 +120,7 @@ article h2{
   background-position: center;
   background-size: cover;
   text-align: center;
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
 }
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
@@ -161,6 +162,7 @@ button{
   border: 2px solid #FCFCFC;
   color: #000000;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .payment-option{
@@ -189,6 +191,10 @@ footer{
 }
 .hidden-on-sm{
   display: block;
+}
+.row{
+  display: flex;
+
 }
 
 /* 
@@ -233,6 +239,15 @@ footer{
         url('fonts/heartbeat.ttf') format('ttf');
 }
 
+/* Media Queries */
+@media (max-width: 480px) {
+  .hidden-on-lg {
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
+}
 /*
   Animations for fading in logo on page load
 */
