@@ -149,6 +149,10 @@ article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 .product{
   margin-right: 1em;
   padding: 1em;
@@ -171,6 +175,7 @@ article h2.open-forever{
 .button {
   width: 100%;
   margin-top: 1em;
+  cursor: pointer;
 }
 
 .button-link {
