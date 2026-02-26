@@ -92,12 +92,7 @@ main{
 }
 
 .total {
-  text-align:right;
-  
-}
-
-.total td:last-child {
-  text-align: start;
+  text-align:center;
 }
 
 table{
@@ -190,6 +185,7 @@ article h2.open-forever{
 }
 
 .sidy-by-side{
+
 }
 
 .description{
