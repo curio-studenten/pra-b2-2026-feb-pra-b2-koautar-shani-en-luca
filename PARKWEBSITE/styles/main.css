@@ -173,6 +173,18 @@ button:hover{
   cursor: pointer;
 }
 
+.row {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+}
+
+.row img {
+  max-width: 250px;
+  width: 100%;
+}
+
+
 .button-link {
   display: block;
   padding: .5em;
@@ -195,6 +207,11 @@ button:hover{
 
 .description{
   flex: 1;
+  line-height: 1.25;
+}
+
+.description p {
+  margin: 0;
 }
 
 footer{
@@ -212,10 +229,6 @@ footer{
 }
 .hidden-on-sm{
   display: block;
-}
-.row{
-  display: flex;
-
 }
 
 /* 
